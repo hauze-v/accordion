@@ -15,3 +15,43 @@ header {
   text-align: center;
   margin: 2rem;
 }
+.accordion__tagline {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  margin-top: 0.5rem;
+}
+.accordion {
+  width: 620px;
+  margin: 0 auto;
+}
+.accordion__heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  border-top: 1px solid #ddd;
+  letter-spacing: 1px;
+}
+.accordion__heading:hover {
+  cursor: pointer;
+}
+.accordion__details {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease all;
+  margin-left: 2rem;
+}
+.accordion__details p {
+  padding: 1.2rem 0;
+  line-height: 1.2rem;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
