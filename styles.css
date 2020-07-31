@@ -24,14 +24,14 @@ header {
   width: 620px;
   margin: 0 auto;
 }
-.accordion__heading {
+.accordion__header {
   display: flex;
   justify-content: space-between;
   padding: 0.8rem 2rem;
   border-top: 1px solid #ddd;
   letter-spacing: 1px;
 }
-.accordion__heading:hover {
+.accordion__header:hover {
   cursor: pointer;
 }
 .accordion__details {
@@ -45,10 +45,6 @@ header {
   padding: 1.2rem 0;
   line-height: 1.2rem;
   font-size: 0.8rem;
-}
-.display {
-  max-height: 2rem;
-  overflow: initial;
 }
 
 
