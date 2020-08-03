@@ -8,7 +8,7 @@ body {
   color: #91322e;
 }
 .container {
-  width: 690px;
+  max-width: 960px;
   margin: 1rem auto;
   padding: 1rem;
   background: #e3c167;
@@ -30,16 +30,22 @@ body {
   padding: 1rem;
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  height: 3.7rem;
   overflow: hidden;
-}
-.accordion__item:hover {
-  cursor: pointer;
+  transition: 0.3s all ease;
 }
 .accordion__question {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.accordion__question:hover {
+  cursor: pointer;
+}
+.accordion__answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease all;
 }
 footer {
   text-align: center;
